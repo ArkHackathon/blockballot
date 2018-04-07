@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 echo "running update"
 sudo apt-get -y update
 
@@ -27,7 +27,7 @@ MAXVOTESPERWALLET=1
 CHAINBLOCKTIME=8
 CHAINTRANSPERBLOCK=50
 REWARDSTART=75600
-REWARDPERBLOCK=
+REWARDPERBLOCK=0
 TOTALPREMINE=2100000000000000
 
 echo "Beginning ark node installation"
