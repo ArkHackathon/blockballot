@@ -1,2 +1,4 @@
 # blockballot
 Bitcamp 2018 Hack to create a blockchain voting system.
+
+Fork of ARK to allow an election. Voting for the delegates to maintain blockchain nodes Since the infrastructure already allows voting for delegates, I am creating a python API to allow humans to create an ARK wallet associated with an ID. Then, the election agency(genesis wallet owner) can distribute the exact amount of coin necessary to submit a vote. The main change between use cases is the reward per block for maintaining a node. In a large system, like a government, this should be small or zero and delegates (new office holders) should instead be paid their government salary as incentive to maintain a node. In a smaller one, delegates and officials are more accountable to the community are a part of and so the solution to a reward for maintaining the blockchain is more nebulous. This is a factor for the group in question to decide. The illustrative case will be a UMD student group. 
